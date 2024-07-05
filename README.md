@@ -5,16 +5,17 @@ Installation
 To get started with this project, clone the repository and install the required dependencies.
 
 
-git clone https://github.com/Devarsh003/rock-vs-mine-classification.git 
+git clone https://github.com/Devarsh003/rock-vs-mine-classification.git
+
 cd rock-vs-mine-classification 
+
 pip install -r requirements.txt
 
-Usage
-Training the Model
+# Training the Model
 To train the machine learning model on the dataset, ensure your dataset file (sonar data.csv) is in the root directory of the project. Then, run the following script:
 
-python
-Copy code
+# python
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
